@@ -2,7 +2,7 @@ import { Dropdown } from "antd";
 import type { MenuProps } from "antd";
 import Link from "next/link";
 
-export default function Company({}: {}) {
+export default function Company() {
   const items: MenuProps["items"] = [
     {
       key: "1",

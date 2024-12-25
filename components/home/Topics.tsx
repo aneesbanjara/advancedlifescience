@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import conferenceImg from "@/app/assets/conferenceEgImg.jpg";
 
-export default function Topics({}: {}) {
+export default function Topics() {
   return (
     <div className=" flex flex-col justify-center items-center gap-10 my-10 px-16 py-5 bg-[#efefef]">
       <div className="text-4xl font-bold text-[rgb(138,34,153)]">TOPICS</div>

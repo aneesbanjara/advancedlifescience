@@ -2,10 +2,10 @@ import { Dropdown } from "antd";
 import type { MenuProps } from "antd";
 import Link from "next/link";
 
-export default function Products({}: {}) {
+export default function Products() {
   const items: MenuProps["items"] = [
     {
-      key: "4",
+      key: "8",
       label: "OPTHALMOLOGY",
       disabled: true,
     },

@@ -2,11 +2,7 @@
 import React from "react";
 import { Image as AntImage } from "antd";
 
-export default function Conferences({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Conferences() {
   return (
     <section>
       <div className="flex flex-row justify-start bg-gradient-to-r from-[#ADD8E6] to-[#00008B] text-white px-36 py-8">

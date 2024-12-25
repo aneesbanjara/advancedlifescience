@@ -8,13 +8,13 @@ import Link from "next/link";
 import { Button } from "antd";
 import InquiryForm from "@/components/inquiry/InquiryForm";
 
-export default function Maestro2({}: {}) {
+export default function Maestro2() {
   return (
     <section>
       <SubHeader>Maestro 2</SubHeader>
       <Margin>
         <div className="flex gap-4 w-full">
-          <div className="flex flex-col gap-2 ">
+          <div className="flex flex-col gap-2">
             <p className="text-base">
               Introducing automated OCT, true color fundus photography, and
               automated OCT Angiography in one instrument. With the touch of a
@@ -79,8 +79,8 @@ export default function Maestro2({}: {}) {
             </div>
             <div className="text-base text-[#555] px-[20%]">
               Have questions about our products or ready to make a purchase?
-              We're here to assist you. Simply fill out the form below, and our
-              team will reach out to you shortly.
+              We&apos;re here to assist you. Simply fill out the form below, and
+              our team will reach out to you shortly.
             </div>
           </div>
           <section id="bottom-section">

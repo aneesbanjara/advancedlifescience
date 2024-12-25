@@ -1,3 +1,3 @@
-export default function Warranty({ children }: { children: React.ReactNode }) {
+export default function Warranty() {
   return <section>Warranty</section>;
 }

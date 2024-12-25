@@ -1,10 +1,10 @@
 import { Button } from "antd";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 interface ProductCardProps {
   linkTo: string;
-  imgSrc: any;
+  imgSrc: string | StaticImageData;
   imgAlt: string;
   productName: string;
   para: string;

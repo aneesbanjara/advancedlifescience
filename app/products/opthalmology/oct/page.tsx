@@ -4,7 +4,7 @@ import maestro2Img from "@/public/images/opthalmology/OCT/maestro2.png";
 import tritonImg from "@/public/images/opthalmology/OCT/triton.png";
 import Product from "@/components/product/Product";
 
-export default function OCT({ children }: { children: React.ReactNode }) {
+export default function OCT() {
   return (
     <section>
       <SubHeader>Optical Coherence Tomography (OCT)</SubHeader>

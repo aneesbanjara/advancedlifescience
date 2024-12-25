@@ -1,6 +1,5 @@
 import FeaturedProducts from "@/components/home/FeaturedProducts";
 import LatestUpdate from "@/components/home/LatestUpdate";
-import Topics from "@/components/home/Topics";
 
 export default function Home() {
   return (

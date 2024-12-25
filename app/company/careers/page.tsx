@@ -2,7 +2,6 @@
 import React from "react";
 import { Tabs } from "antd";
 import type { TabsProps } from "antd";
-import type { FormProps } from "antd";
 import { Button, Form, Input } from "antd";
 
 interface FormValues {
@@ -11,11 +10,7 @@ interface FormValues {
   password: string;
 }
 
-export default function Careers({ children }: { children: React.ReactNode }) {
-  const onChange = (key: string) => {
-    console.log(key);
-  };
-
+export default function Careers() {
   const items: TabsProps["items"] = [
     {
       key: "1",

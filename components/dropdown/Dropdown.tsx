@@ -1,4 +1,4 @@
-export default function Dropdown({}: {}) {
+export default function Dropdown() {
   return (
     <section>
       <div className="dropdown">

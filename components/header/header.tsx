@@ -5,7 +5,7 @@ import {
   MdOutlinePhone,
 } from "react-icons/md";
 
-export default function Header({}: {}) {
+export default function Header() {
   return (
     <>
       <div className="flex flex-row justify-end gap-8 bg-[#DBDBDB] text-[#636466] px-36 py-0.5">

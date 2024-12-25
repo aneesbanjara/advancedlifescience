@@ -1,6 +1,6 @@
 import { FaArrowRight } from "react-icons/fa6";
 
-export default function LatestUpdate({}: {}) {
+export default function LatestUpdate() {
   return (
     <div className=" flex flex-col justify-center items-center gap-10 my-12 mx-[10%]">
       <div className="text-3xl font-bold text-[rgb(138,34,153)]">

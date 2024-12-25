@@ -1,6 +1,5 @@
 "use client";
 import { Button, Form, Input } from "antd";
-import { Alert } from "antd";
 
 interface FormValues {
   name: string;
@@ -8,7 +7,7 @@ interface FormValues {
   password: string;
 }
 
-export default function InquiryForm({}: {}) {
+export default function InquiryForm() {
   return (
     <section>
       <Form layout="vertical" className="z-0">

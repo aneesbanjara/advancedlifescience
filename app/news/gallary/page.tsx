@@ -1,13 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
 import { Image as AntImage } from "antd";
-import Link from "next/link";
-import gallaryImage from "@/app/assets/corneaConferenceSCEH.jpeg";
-import exibitionGallaryImage from "@/app/assets/ExibitionCorneaConferenceSCEH.jpeg";
 
-export default function Gallary({ children }: { children: React.ReactNode }) {
+export default function Gallary() {
   return (
     <section>
       <div className="flex flex-row justify-start bg-gradient-to-r from-[#ADD8E6] to-[#00008B] text-white px-36 py-8">

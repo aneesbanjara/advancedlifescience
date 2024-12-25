@@ -1,7 +1,3 @@
-export default function Opthalmology({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Opthalmology() {
   return <section>This is opthalmology page</section>;
 }

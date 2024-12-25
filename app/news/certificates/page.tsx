@@ -1,7 +1,3 @@
-export default function Certificates({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Certificates() {
   return <section>Certificates</section>;
 }

@@ -1,6 +1,6 @@
 import { Carousel } from "antd";
 
-export default function FeaturedProducts({}: {}) {
+export default function FeaturedProducts() {
   return (
     <section>
       <div className=" flex flex-col justify-center items-center gap-10 my-10 px-16 py-5">

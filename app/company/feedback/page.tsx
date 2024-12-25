@@ -7,7 +7,7 @@ interface FormValues {
   password: string;
 }
 
-export default function Feedback({ children }: { children: React.ReactNode }) {
+export default function Feedback() {
   return (
     <section>
       <div className="flex flex-row justify-start bg-gradient-to-r from-[#ADD8E6] to-[#00008B] text-white px-36 py-8">
