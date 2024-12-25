@@ -152,30 +152,6 @@ export default function Products({}: {}) {
         </Link>
       ),
     },
-    // {
-    //   key: "1",
-    //   label: (
-    //     <Link href="/products/opthalmology" className="">
-    //       Opthalmology
-    //     </Link>
-    //   ),
-    // },
-    // {
-    //   key: "2",
-    //   label: (
-    //     <Link href="/products/ent" className="">
-    //       ENT
-    //     </Link>
-    //   ),
-    // },
-    // {
-    //   key: "3",
-    //   label: (
-    //     <Link href="/products/energy" className="">
-    //       Alternative Energy
-    //     </Link>
-    //   ),
-    // },
   ];
   return (
     <Dropdown
