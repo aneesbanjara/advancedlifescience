@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Products({}: {}) {
   const items: MenuProps["items"] = [
     {
-      key: "5",
+      key: "4",
       label: "OPTHALMOLOGY",
       disabled: true,
     },
